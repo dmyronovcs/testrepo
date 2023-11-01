@@ -1,3 +1,3 @@
 FROM busybox
 ENTRYPOINT ["ping"]
-CMD ["-c","1","8.8.8.8"]
+CMD ["-c","2","8.8.8.8"]
