@@ -1,3 +1,3 @@
 FROM busybox
 ENTRYPOINT ["ping"]
-CMD ["-c1, "epam.com"]
+CMD ["-c","1","8.8.8.8"]
